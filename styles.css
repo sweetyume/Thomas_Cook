@@ -1,0 +1,189 @@
+/* GENERAL */
+
+body {
+  margin: 0 auto;
+  widtht: 100%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+  margin: auto;
+  width: 80%;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+h2 {
+  padding: 20px;
+}
+
+.imgCircuit, .packImg2, .packImg3, .packImg4, .packImg6 {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/*AGENCES HEADER */
+
+#agences {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9em;
+  color: #397D93;
+}
+
+header {
+  background-color: #F2F2F2;
+}
+
+
+/* PARTIE 1 LOGO ET MENU */
+
+h1 {
+  font-size: 0.7em;
+  color: #D1D1D1;
+}
+
+.logo {
+  display: flex;
+  align-self: flex-start;
+  justify-content: flex-start;
+}
+
+#partie1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#partie1 a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 1.2em;
+  padding: 25px;
+}
+
+
+/*PARTIE 2 CIRCUIT PROMO ET FORMULAIRE */
+
+#partie2 {
+  display: flex;
+}
+
+.formulaire {
+  width: 50%;
+  background-color: #282828;
+}
+
+
+/*PARTIE 3 DES OFFRES COMME CA*/
+
+.border-Img {
+  display: flex;
+  align-content: center;
+}
+
+
+/*PARTIE 4 C'est le moment d'y aller*/
+
+
+/*PARTIE 6*/
+
+
+/*PARTIE 8 OFFRES TROP MIGNONNES*/
+
+
+/*PARTIE 10 NOS CONCEPTS HÔTELS */
+
+.packImg8 {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+
+/*PARTIE 11 ARROW-UP*/
+
+#partie11 {
+  background-color: #397D93;
+}
+
+
+/*PARTIE 12 NUMEROS ET RESEAUX SOCIAUX*/
+
+#partie12 {
+  background-color: #282828;
+  color: white;
+}
+
+.icones-white {
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+#helpbox, #findAgency, #joinUs {
+  display: flex;
+}
+.mention-speciale {
+  font-size: 0.8em;
+
+}
+
+/*PARTIE 11*/
+
+.icones {
+  display: flex;
+justify-content: space-around;
+align-items: center;}
+.icones-texte {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+/*PARTIE 13 A PROPOS*/
+
+#partie13 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #1B1B1B;
+  color: white;
+}
+
+.apropos a, .autresSites a, .catalogues a {
+  color: white;
+  display: flex;
+}
+
+
+/*PARTIE 15 MENTIONS LEGALES*/
+
+#partie15 {
+  background-color: #D6D8D9;
+}
+
+#control {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#liensFin ul li a {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
